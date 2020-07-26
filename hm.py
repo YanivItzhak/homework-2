@@ -63,13 +63,28 @@ removed = original.replace("o", "")
 print(removed)
 '''
 
+
+
 '''
 #9
-numbers=[8, 1000, -3, 2, 5]
+numbers =[8, 1000, -3, 2, 5]
 sum=0
 for number in numbers:
-    sum= sum +number
+    sum=sum + number
     print(f'{number} sum ={sum}')
-y=max(sum);
-print(y)
+x=print(sum)
+print(max(numbers))
+print(min(numbers))
+for total in numbers:
+    sum = sum + total
+avg = sum / len(numbers)
+print(f'average : {avg}')
+numbers.remove(-3)
+print(numbers)
+numbers.sort()
+print(numbers)
+del numbers[0]
+print(numbers)
+# not working split
 '''
+

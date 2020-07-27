@@ -88,3 +88,12 @@ print(numbers)
 # not working split
 '''
 
+#10
+'''
+numbers = [1,5,7,8,100]
+x=0
+for number in numbers:
+    if x < number:
+        x =number
+print(number)
+'''
